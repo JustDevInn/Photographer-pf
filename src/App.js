@@ -19,7 +19,7 @@ const App = () => {
         <AnimRoutes />
       </Router>
       {/* cursor */}
-      <motion.div 
+      <motion.div
         variants={cursorVariants}
         animate={cursorBG}
         className='w-[32px] h-[32px] bg-primary fixed
